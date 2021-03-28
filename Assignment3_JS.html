@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Tim Hortons-Javascript Assignment</title>
+		<script> 
+		
+			//add javascript code here
+		</script>
+		
+		<style>
+			body {
+				background-color:green;
+			}
+				
+			#img1 {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 40%;
+			}
+			form {
+				border-style:solid;
+			}
+			
+			.inp {
+				float:right;
+			}
+			
+			select {
+		
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+	
+		
+		<div id="header">
+			<img src="images/logo.png" id="img1" alt="Timmies Logo" height="auto" width="auto">
+			<hr>
+			
+			<h1 style="text-align:center;">Welcome to Tim Horton's online order Portal!</h1>
+		</div>
+		
+		<form 	 style="text-align: left; margin-left:40%;float:left;">
+		<!--Order form-->
+			<div id="formHead">
+			Input your order information:  
+			</div>
+			<br>
+			Number of coffee's: <input class="inp" type="number" id="numCof">
+			<br><br>
+			Size of coffee: 
+			<select style="margin-left:35px;" id="sizeCof">
+				<option value="Large">Large</option>
+				<option value="Medium">Medium</option>
+				<option value="Small">Small</option>
+			</select>
+			<br><br>
+			Number of creams: <input class="inp" type="number" id="numCrm">
+			<br><br>
+			Number of sugars: <input class="inp" type="number" id="numS">
+			<br><br>
+			<input type="button" value="Order coffee" style="float:center; margin-left:100px;">
+		</form>
+		<div style="text-align:center;clear:both" id="divsum">
+			<h1> Order Summary</h1>
+			<p id="data"></p>
+		</div>
+		
+		
+		<noscript>No Browser support for Javascript</noscript>
+	</body>
+	
+</html>
